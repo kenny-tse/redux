@@ -1,4 +1,4 @@
-import * as ACTION_TYPES from '../actions/action_types '
+import * as ACTION_TYPES from '../actions/action_types'
 
 // this is the actual redux state
 const initalState = {
@@ -25,3 +25,5 @@ const rootReducers = (state = initalState, action) => {
       return state;
   }
 }
+
+export default rootReducers;
